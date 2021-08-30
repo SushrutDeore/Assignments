@@ -1,5 +1,5 @@
 package School;
-
+//UNderstanding the scope of access modifiers.
 public class Student {
 	
 	public int rollNo=111;

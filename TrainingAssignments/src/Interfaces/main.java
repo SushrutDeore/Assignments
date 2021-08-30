@@ -11,6 +11,10 @@ public class main {
 		d.walk();
 		d.sound();
 		
+		Animal[] a=new Animal[3];
+		
+		a[0]=d;
+		
 		
 	
 		

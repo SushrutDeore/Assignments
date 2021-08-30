@@ -1,6 +1,6 @@
 package SalesRepo;
 import java.util.Scanner;
-
+//Creating sales class and Calculating the sales stats.
 public class Sales {
 	
 	public String name;

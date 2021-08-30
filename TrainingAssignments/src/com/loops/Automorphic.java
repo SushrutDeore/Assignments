@@ -15,6 +15,6 @@ public class Automorphic {
 	
 	public static void main(String[] args) {
 		
-		isAutomorphic(13);
+		isAutomorphic(25);
 	}
 }
