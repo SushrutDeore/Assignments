@@ -7,7 +7,7 @@ public class DivideByZeroException extends Exception {
 	
 	public DivideByZeroException()
 	{
-		super("Divide by zero");
+		super("Divide by zero...Do not enter zero values ");
 	}
 	
 	

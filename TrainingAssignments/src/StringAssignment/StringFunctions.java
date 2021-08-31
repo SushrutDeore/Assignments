@@ -10,6 +10,7 @@ public class StringFunctions {
 		String str4="Sushrut";
 		String str5="";
 		String str6=" ";
+		String str7="    Sushrut   ";
 		System.out.println(str1.equals(str2));
 		System.out.println(str1.equals(str3));
 		System.out.println(str1.equals(str4));
@@ -22,5 +23,7 @@ public class StringFunctions {
 		System.out.println(str1.endsWith("t"));
 		System.out.println(str1.length());
 		System.out.println(str1.toLowerCase());
+		System.out.println(str7.trim());
+		
 	}
 }

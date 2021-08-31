@@ -91,12 +91,23 @@ public class PrelimCalculator {
 		public static void main(String[] args)throws DivideByZeroException,UnknownOpException {
 			
 			PrelimCalculator clerk=new PrelimCalculator();
+			try
+			{
 			System.out.println("Calculator is on");
 			System.out.println("Format of each line");
 			System.out.println("Operator space number");
 			System.out.println("For example : + 3");
 			System.out.println("To end enter the letter e");
 			clerk.doCalculation();
+			}
+			catch(UnknownOpException e)
+			{
+				System.out.println(e.getLocalizedMessage());
+			}
+			catch(DivideByZeroException e)
+			{
+				System.out.println(e.getLocalizedMessage());
+			}
 			
 			System.out.println("The final result is : "+ clerk.getResult());
 			
