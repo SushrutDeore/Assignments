@@ -12,13 +12,13 @@ public class Demo {
 		try
 		{
 			if(a<0)
-				throw   new Exception("Error");
+				throw   new Exception();
 			
 			System.out.println(10/a);
 		}
 		catch(Exception e)
 		{
-			System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
 	}
 

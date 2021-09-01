@@ -13,7 +13,7 @@ public class DivideByZeroException extends Exception {
 	
 	public DivideByZeroException(String msg)
 	{
-		super("Divide by zero...");
+		super("Divide by zero...!");
 	}
 	
 	
