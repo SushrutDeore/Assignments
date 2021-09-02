@@ -13,7 +13,7 @@ public class TreeSetTest {
 		  al.add("Vijay");  
 		  al.add("Ravi");  
 		  al.add("Ajay");  
-		  //Traversing elements  
+		   
 		  Iterator<String> itr=al.iterator();  
 		  while(itr.hasNext()){  
 		   System.out.println(itr.next());  
