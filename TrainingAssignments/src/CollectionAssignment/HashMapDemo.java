@@ -1,4 +1,4 @@
-package CollectionAssignment;
+  package CollectionAssignment;
 
 import java.util.HashMap;
 
@@ -29,8 +29,8 @@ public class HashMapDemo {
 		 for (String keyMountainName : mountains.keySet())
 		 {
 		 Integer height = mountains.get(keyMountainName);
-		 System.out.println(keyMountainName + " --> " +
-		 height.intValue() + " feet.");
+		 System.out.println(keyMountainName + " :" +
+		 height.intValue() + " ft");
 		 }
 		 
 		 
