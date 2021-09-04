@@ -1,4 +1,4 @@
-package Array2;
+package array2;
 
 import java.util.Scanner;
 //Creating array of class Employee. Taking values for its variables and displying the same.

@@ -1,4 +1,4 @@
-package Array2;
+package array2;
 //Creating a Student class.
 //Creating array of the student class and using constuctor and setter method inside and display the information.
 public class Student {

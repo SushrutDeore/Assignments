@@ -1,4 +1,4 @@
-package Array2;
+package array2;
 
 public class UniquePair {
 	

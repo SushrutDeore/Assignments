@@ -1,20 +1,22 @@
-package Array2;
+package array2;
 
 import java.util.Scanner;
-//Finding Maximum number between the Elements in each Row.
-public class MaxInRow {
+//Finding Minimum number between the Elements in each Column.
+public class MinInColumn {
 
-	
-	public static int findMax(int[] arr)
+	public static int findMin(int[] arr)
 	{
-		int max=arr[0];
 		
+		int min=arr[0];
 		for (int i = 1; i < arr.length; i++)
-            if (arr[i] > max)
-                max = arr[i];
+		{
+            if (arr[i] < min)
+                min = arr[i];
+		}
 		
-		return max;
+		return min;
 	}
+	
 	public static void main(String[] args) {
 		
 		int row,column;
@@ -33,16 +35,17 @@ public class MaxInRow {
 			}
 		}
 		
-		
+		int[] temp=new int[row];
+		for(int j=0;j<column;j++)
+		{
 		for(int i=0;i<row;i++)
 		{
-			int[] temp=new int[column];
-			for(int j=0;j<column;j++)
-			{
-			temp[j]=arr[i][j];	
-			}
-			System.out.println("Max in"+(i+1)+"row"+findMax(temp));
+			temp[i]=arr[i][j];
+		}
+		
+		System.out.println("Minimun in Column "+j+findMin(temp));
 		}
 		
 	}
+
 }
