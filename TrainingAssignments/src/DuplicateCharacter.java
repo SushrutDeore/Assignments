@@ -1,3 +1,4 @@
+import StringAssignment.WordCount;
 
 public class DuplicateCharacter {
 
@@ -10,19 +11,25 @@ public class DuplicateCharacter {
 		int len=arr.length;
 		for(int i=0;i<len;i++)
 		{
-			int charCount=0;
-			for(int j=0;j<len;j++)
+			int charCount=1;
+			for(int j=i+1;j<len;j++)
 			{
 				
 				 if(arr[i]==arr[j])
 				{
 					charCount++;
+					arr[j]='0';
 					
 				}
+				 
 						
 			}  
 			
-			System.out.println(arr[i]+" "+charCount);
+			if(charCount > 1 && arr[i] != '0')
+			{
+				System.out.println("Repeated");
+                System.out.println(arr[i]+""+charCount);
+			}
 			
 			
 			
